@@ -4,13 +4,13 @@
 
 Este repositório contém códigos para Large Language Models (LLMs) e materiais suplementares, incluindo conjunto de dados e análises estatísticas, utilizados em um estudo exploratório que investigou o impacto de explicações textuais versus visuais na confiança de profissionais de saúde mental.
 
-Como fruto deste quarto estudo de , este repositório contém o material do capítulo 06 da tese "Explorando Métodos Avançados de Inteligência
+Como fruto de uma quarto estudo de doutorado, este repositório contém o material do capítulo 06 da tese "Explorando Métodos Avançados de Inteligência
 Artificial no Monitoramento de Ideação Suicida em Textos Não-Clínicos" submetido para defesa de teste do doutorado em Biotecnologia (PPGBiotec) da UFDPar.
 
 A equipe de pesquisa do projeto Boamente foi composta por:
 
 * Adonias Caetano de Oliveira - Autor da tese e Discente do PPGbiotec, UFDPar.
-* * Prof. Dr. Ariel Soares Teles - Docente-orientador do PPGbiotec, UFDPar.
+* Prof. Dr. Ariel Soares Teles - Docente-orientador do PPGbiotec, UFDPar.
 </p>
 
 ## 👏 Contribuições
