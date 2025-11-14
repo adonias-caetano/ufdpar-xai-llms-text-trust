@@ -1,8 +1,8 @@
-# Boamente Prisma: Explicação textual e confiança
+# Estudo 04: Boamente Prisma: Explicação textual e confiança
 
 ## Programa de Pós-Graduação em Biotecnologia (PPGBiotec) - Universidade Federal Delta do Parnaiba (UFDPar) 
 
-Este repositório contém códigos para Large Language Models (LLMs) e materiais suplementares, incluindo conjunto de dados e análises estatísticas, utilizados em um estudo exploratório que investigou o impacto de explicações textuais versus visuais na confiança de profissionais de saúde mental.
+Este repositório contém o material suplementar do quarto estudo de doutorado, incluindo códigos de Large Language Models (LLMs) dos modelos de classificação e modelo de explicação, conjunto de dados e análises estatísticas, utilizados em um estudo exploratório que investigou o impacto de explicações textuais versus visuais na confiança de profissionais de saúde mental.
 
 Como fruto de uma quarto estudo de doutorado, este repositório contém o material do capítulo 06 da tese "Explorando Métodos Avançados de Inteligência
 Artificial no Monitoramento de Ideação Suicida em Textos Não-Clínicos" submetido para defesa de teste do doutorado em Biotecnologia (PPGBiotec) da UFDPar.
