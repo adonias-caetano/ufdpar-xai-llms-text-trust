@@ -24,12 +24,9 @@ The study was conducted remotely in a synchronous format with mental health prof
 2. Experiment with textual explanations
 3. Evaluation using the Perceived Quality of Explanation Questionnaire
 
-<!-- PROJECT LOGO -->
-<br />
 <div align="center">
-  <a href="https://github.com/adonias-caetano/Suicidal-Ideation-BERTvsLLM.git">
-    <img src="Desenho-Final-Estudo.jpg" alt="Logo" width="80" height="80">
-  </a>
+  <img src="Desenho-Final-Estudo.jpg" alt="Study design." style="max-width: 100%; height: auto;" >
+  <p><i>Overview of the study architecture and explanation flow.</i></p>
 </div>
 
 Three explanation formats were compared:
