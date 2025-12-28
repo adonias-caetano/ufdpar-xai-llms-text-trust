@@ -30,9 +30,9 @@ The AdamW optimizer was used to adjust parameters in the model, batch size of 16
 
 In this project, two prototypes of Boamente were developed using <a href="https://www.gradio.app/"><strong>Gradio</strong></a>. The first interface was implemented without using XAI methods, i.e., it only allows the typing of sentences and the activation of the "classify" function. The second interface allows the explanation of predictions using the Local Interpretable Model-Agnostic Explanations (<a href=" https://github.com/marcotcr/lime"><strong>LIME</strong></a>) method, in addition to also classifying sentences as "contains suicidal ideation" and "does not contain suicidal ideation".
 
-## 🤖 Access our article in Review
+## 🤖 Article in Review
 
-Paper submitted to <a href="https://ieeeaccess.ieee.org/"> <strong>IEEE Access</strong></a>
+Paper submitted to <a href="https://www.sciencedirect.com/journal/artificial-intelligence-in-medicine/publish/open-access-options"> <strong>Artificial Intelligence in Medicine</strong></a>
 
 ### [Paper Link]() 
 
