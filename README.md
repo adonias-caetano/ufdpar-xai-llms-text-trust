@@ -28,7 +28,7 @@ The study was conducted remotely in a synchronous format with mental health prof
 <br />
 <div align="center">
   <a href="https://github.com/adonias-caetano/Suicidal-Ideation-BERTvsLLM.git">
-    <img src="logo_boamente.png" alt="Logo" width="80" height="80">
+    <img src="Desenho-Final-Estudo.jpg" alt="Logo" width="80" height="80">
   </a>
 </div>
 
