@@ -16,15 +16,28 @@ This repository provides codes of LLMs evaluated, supplementary material, and qu
 
 <div align="justify">
 
-## 📖  Dataset
+## 📚  Dataset
 
 The <a href="https://zenodo.org/records/10070747"><strong>original dataset</strong></a> consists of 2691 sentences without suicidal ideation and 1097 sentences with suicidal ideation in PT-BR. The dataset is available in Comma-separated values (CSV) format in two columns: text and target, respectively the sentence and class 0 (negative) or 1 (positive). 
 
-## 🛠 Fine-tuning BERT-based Models
+* **Negative (no suicidal ideation): 2,691**
+* **Positive (suicidal ideation): 1,097**
 
-We use BERTimbau Large (BERT-Large), a model pre-trained in Brazilian Portuguese, from <a href="https://github.com/neuralmind-ai/portuguese-bert/"><strong>BERTimbau - Portuguese BERT</strong></a>.  
+Preprocessing included removal of hashtags, links and special characters. No class balancing techniques were applied, preserving the natural distribution of the data.
 
-The AdamW optimizer was used to adjust parameters in the model, batch size of 16, configured with a learning rate equal to 2e-6 in seven training epochs. K-fold cross-validation was performed by dividing the pre-processed dataset into 80% for training and 20% for validation. 
+## 🧠 Fine-tuning Setup
+
+Models were fine-tuned for suicidal ideation classification using an **80/10/10 split**:
+
+* **Train:** 80%
+* **Validation:** used for hyperparameter tuning & early stopping
+* **Test:** used only for final evaluation
+
+Training was performed on a machine with **Intel i9 (13th Gen), 128GB RAM, NVIDIA RTX 4090**.
+
+### ⚙ Training Framework
+
+Fine-tuning was implemented using **Unsloth**~\cite{unsloth:2023} with **QLoRA**~\cite{qlora:2023}, enabling efficient training through 4-bit quantisation + low-rank adaptation. Only LoRA matrices were updated, reducing GPU memory usage while maintaining performance. Parameter-Efficient Fine-Tuning (PEFT) was applied to optimise training.
 
 ## 🖥️ Development methodology
 
