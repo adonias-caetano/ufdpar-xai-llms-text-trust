@@ -16,6 +16,31 @@ This repository provides codes of LLMs evaluated, supplementary material, and qu
 
 <div align="justify">
 
+### 🧪 Study Overview
+
+The study was conducted remotely in a synchronous format with mental health professionals (MHPs), allowing wider geographic reach and participant diversity. The research followed three stages:
+
+1. Informed consent + sociodemographic questionnaire
+2. Experiment with textual explanations
+3. Evaluation using the Perceived Quality of Explanation Questionnaire
+
+<!-- PROJECT LOGO -->
+<br />
+<div align="center">
+  <a href="https://github.com/adonias-caetano/Suicidal-Ideation-BERTvsLLM.git">
+    <img src="logo_boamente.png" alt="Logo" width="80" height="80">
+  </a>
+</div>
+
+Three explanation formats were compared:
+
+* **Visual (LIME-based)** – baseline from~\cite{oliveira:2025:xai:trust}
+* **CoT (Chain-of-Thought)** – explanations structured with step-by-step reasoning
+* **Non-CoT** – brief explanations without explicit reasoning steps
+
+The aim was to analyse how explanation style influences trust in Boamente Prisma.
+
+
 ## 📚  Dataset
 
 The <a href="https://zenodo.org/records/10070747"><strong>original dataset</strong></a> consists of 2691 sentences without suicidal ideation and 1097 sentences with suicidal ideation in PT-BR. The dataset is available in Comma-separated values (CSV) format in two columns: text and target, respectively the sentence and class 0 (negative) or 1 (positive). 
