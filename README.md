@@ -70,7 +70,7 @@ Training was performed on a machine with **Intel i9 (13th Gen), 128GB RAM, NVIDI
 
 ### ⚙ Training Framework
 
-Fine-tuning was implemented using **Unsloth**~\cite{unsloth:2023} with **QLoRA**~\cite{qlora:2023}, enabling efficient training through 4-bit quantisation + low-rank adaptation. Only LoRA matrices were updated, reducing GPU memory usage while maintaining performance. Parameter-Efficient Fine-Tuning (PEFT) was applied to optimise training.
+Fine-tuning was implemented using **Unsloth** with **QLoRA**, enabling efficient training through 4-bit quantisation + low-rank adaptation. Only LoRA matrices were updated, reducing GPU memory usage while maintaining performance. Parameter-Efficient Fine-Tuning (PEFT) was applied to optimise training.
 
 ## 🖥️ Development methodology
 
