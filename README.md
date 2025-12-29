@@ -22,12 +22,12 @@ This repository provides codes of LLMs evaluated, supplementary material, and qu
 This work extends the original Boamente architecture, integrating generative LLMs for suicidal ideation detection and evaluating the impact of textual explanations on trust when compared to LIME-based visual explanations. The proposed **Boamente Prisma architecture** classifies PT-BR texts and generates readable justifications for decisions using a second reasoning model. Both the prediction and explanation are delivered through a web interface designed for mental health professionals (MHPs).
 
 <div align="center">
-  <img src="novo" alt="Study design." style="max-width: 100%; height: auto;" >
+  <img src="novo-boamente.jpg" alt="Study design." style="max-width: 100%; height: auto;" >
   <p><i>Overview of the study architecture and explanation flow.</i></p>
 </div>
 
 
-### 🧪 Study Overview
+## 🧪 Study Overview
 
 The study was conducted remotely in a synchronous format with mental health professionals (MHPs), allowing wider geographic reach and participant diversity. The research followed three stages:
 
