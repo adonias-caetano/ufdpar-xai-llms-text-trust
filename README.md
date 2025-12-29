@@ -23,7 +23,7 @@ This work extends the original Boamente architecture, integrating generative LLM
 
 <div align="center">
   <img src="novo-boamente.jpg" alt="Study design." style="max-width: 100%; height: auto;" >
-  <p><i>Overview of the study architecture and explanation flow.</i></p>
+  <p><i>Boamente Prisma system architecture..</i></p>
 </div>
 
 
