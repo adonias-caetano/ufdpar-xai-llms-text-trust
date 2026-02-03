@@ -51,22 +51,22 @@ The aim was to analyse how explanation style influences trust in Boamente Prisma
 
 ## 📚  Dataset
 
-The <a href="https://zenodo.org/records/10070747"><strong>original dataset</strong></a> consists of 2691 sentences without suicidal ideation and 1097 sentences with suicidal ideation in PT-BR. The dataset is available in Comma-separated values (CSV) format in two columns: text and target, respectively the sentence and class 0 (negative) or 1 (positive). 
+The <a href="https://zenodo.org/records/10070747"><strong>original dataset</strong></a> used in this work contains **3,777 PT-BR sentences**, annotated by three psychologists and labeled into two classes representing the presence or absence of suicidal ideation.
 
-* **Negative (no suicidal ideation): 2,691**
-* **Positive (suicidal ideation): 1,097**
+* **Negative (no suicidal ideation): 2,687**  
+* **Positive (suicidal ideation): 1,090**
 
-Preprocessing included removal of hashtags, links and special characters. No class balancing techniques were applied, preserving the natural distribution of the data.
+The dataset is provided in CSV format with two columns: **text** (the sentence) and **target** (0 = negative, 1 = positive).
+
+Preprocessing included the removal of hashtags, links, and special characters.  
+No class balancing techniques were applied, preserving the natural distribution of the data.
 
 ## 🧠 Fine-tuning Setup
 
-Models were fine-tuned for suicidal ideation classification using an **80/10/10 split**:
+Models were fine-tuned for suicidal ideation classification using **stratified 5-fold cross-validation**, ensuring proportional class distribution across all folds.
 
-* **Train:** 80%
-* **Validation:** used for hyperparameter tuning & early stopping
-* **Test:** used only for final evaluation
+Training was performed on a machine with **Intel i9 (13th Gen), 128GB RAM, NVIDIA RTX 4090**, using the **Unsloth (2025.10.10)** implementation with the default **QLoRA** configuration.
 
-Training was performed on a machine with **Intel i9 (13th Gen), 128GB RAM, NVIDIA RTX 4090**.
 
 ### ⚙ Training Framework
 
