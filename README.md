@@ -6,25 +6,10 @@ This repository provides codes of LLMs evaluated, supplementary material, and qu
 
 </p>
 
-<!-- PROJECT LOGO -->
-<br />
-<div align="center">
-  <a href="https://github.com/adonias-caetano/Suicidal-Ideation-BERTvsLLM.git">
-    <img src="logo_boamente.png" alt="Logo" width="80" height="80">
-  </a>
-</div>
-
-<div align="justify">
-
 
 ## 🔍 About This Project
 
 This work extends the original Boamente architecture, integrating generative LLMs for suicidal ideation detection and evaluating the impact of textual explanations on trust when compared to LIME-based visual explanations. The proposed **Boamente Prisma architecture** classifies PT-BR texts and generates readable justifications for decisions using a second reasoning model. Both the prediction and explanation are delivered through a web interface designed for mental health professionals (MHPs).
-
-<div align="center">
-  <img src="novo-boamente.jpg" alt="Study design." style="max-width: 100%; height: auto;" >
-  <p><i>Boamente Prisma system architecture..</i></p>
-</div>
 
 
 ## 🧪 Study Overview
@@ -35,14 +20,8 @@ The study was conducted remotely in a synchronous format with mental health prof
 2. Experiment with textual explanations
 3. Evaluation using the Perceived Quality of Explanation Questionnaire
 
-<div align="center">
-  <img src="Desenho-Final-Estudo.jpg" alt="Study design." style="max-width: 100%; height: auto;" >
-  <p><i>Overview of the study architecture and explanation flow.</i></p>
-</div>
-
 Three explanation formats were compared:
 
-* **Visual (LIME-based)** – baseline from~\cite{oliveira:2025:xai:trust}
 * **CoT (Chain-of-Thought)** – explanations structured with step-by-step reasoning
 * **Non-CoT** – brief explanations without explicit reasoning steps
 
