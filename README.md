@@ -15,9 +15,9 @@ This work extends the original Boamente architecture, integrating generative LLM
 
 The study was conducted remotely in a synchronous format with mental health professionals (MHPs), allowing wider geographic reach and participant diversity. The research followed three stages:
 
-1. Informed consent + sociodemographic questionnaire
-2. Experiment with textual explanations
-3. Evaluation using the Perceived Quality of Explanation Questionnaire
+1. Informed consent + sociodemographic questionnaire;
+2. Experiment with textual explanations;
+3. Evaluation using the Perceived Explanation Quality and Trust Questionnaire (PEQTQ).
 
 Three explanation formats were compared:
 
