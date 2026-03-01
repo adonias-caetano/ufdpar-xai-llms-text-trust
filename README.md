@@ -29,7 +29,7 @@ The aim was to analyse how explanation style influences trust in Boamente Prisma
 
 ## 📚  Dataset
 
-The <a href="https://zenodo.org/records/10070747"><strong>original dataset</strong></a> used in this work contains **3,777 PT-BR sentences**, annotated by three psychologists and labeled into two classes representing the presence or absence of suicidal ideation.
+The <a href="https://doi.org/10.5281/zenodo.18343886"><strong>original dataset</strong></a> used in this work contains **3,777 PT-BR sentences**, annotated by three psychologists and labeled into two classes representing the presence or absence of suicidal ideation.
 
 * **Negative (no suicidal ideation): 2,687**  
 * **Positive (suicidal ideation): 1,090**
