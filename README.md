@@ -1,5 +1,5 @@
 
- # LLMs in Suicide Ideation Detection: Evaluation of Classifier Models and Analysis of the Impact of the Explainer Model on Trust
+ # Boamente Prisma: An LLM-Based Digital Phenotyping Tool for Detection and Explanation of Suicidal Ideation in User-generated Tex
 
 <p align="center">
 This repository provides codes of LLMs evaluated, supplementary material, and questionnaires regarding the Level of Trust and quality of textual explanations provided by LLMs 
