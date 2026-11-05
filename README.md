@@ -66,16 +66,21 @@ If there is a bug, or other improvement you would like to report or request, we 
 
 Please, feel free to contact us for any questions: 
 
-* [![Gmail Badge](https://img.shields.io/badge/-ariel.teles@ifma.edu.br-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:ariel.teles@ifma.edu.br)](mailto:ariel.teles@ifma.edu.br )
 * [![Gmail Badge](https://img.shields.io/badge/-adonias.oliveira@ifce.edu.br-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:adonias.oliveira@ifce.edu.br)](mailto:adonias.oliveira@ifce.edu.br )
+*Please, feel free to contact us for any questions: [![Gmail Badge](https://img.shields.io/badge/-ariel@ufdpar.edu.br-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:ariel.teles@ifma.edu.br)](mailto:ariel@ufdpar.edu.br )
 
 ## 📄 License
 
 ### <a href="https://doi.org/10.5281/zenodo.10070747"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.10070747.svg" alt="DOI"></a> 
+### <a href="https://creativecommons.org/licenses/by/4.0/"><img src="https://licensebuttons.net/l/by/4.0//88x31.png" alt="DOI"></a> 
 
 ## 📚 References
 
-* <a href="https://www.mdpi.com/2227-9032/10/4/698"><strong>Paper about Boamente System</strong></a>.
-* <a href="https://www.sciencedirect.com/science/article/pii/S1877050922009668"><strong>Paper about XAI Boamente System</strong></a>.
-* <a href="https://www.scielo.br/j/csp/a/XrbVfvybPj9tvJ8qWv7j8VC/?lang=en"><strong>Paper about Generative LLMs (ChatGPT 3.5, Google Bard, and Microsoft Bing) vs BERT Models (BERTimbau and Multilingual)</strong></a>.
+* <a href="https://www.mdpi.com/2227-9032/10/4/698"><strong>Boamente: Smart Monitoring of Suicidal Ideation</strong></a>.
+* <a href="https://www.sciencedirect.com/science/article/pii/S1877050922009668"><strong>Explaining Boamente: AI for Suicidal Ideation Detection</strong></a>.
+* <a href="https://www.scielo.br/j/csp/a/XrbVfvybPj9tvJ8qWv7j8VC/?lang=en"><strong>BERT vs. Large Language Models for Suicidal Ideation Detection</strong></a>.
+* <a href="https://jhi.sbis.org.br/index.php/jhi-sbis/article/view/1321"><strong>Detecting Suicidal Ideation with Semi-Supervised Learning</strong></a>.
+* <a href="https://ieeexplore.ieee.org/document/10945851"><strong>Explainable AI and Professional Trust in Suicide Prevention</strong></a>.
+* <a href="https://ieeexplore.ieee.org/document/11058904"><strong>LLMs for Detecting and Explaining Suicidal Ideation</strong></a>.
+
 
